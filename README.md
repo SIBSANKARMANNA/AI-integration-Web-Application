@@ -27,22 +27,18 @@ Follow the steps below to get your development environment set up and run the pr
 
 ### 1. Clone the Repository
 git clone https://github.com/yourusername/ai-integration-web-application.git
-cd ai-integration-web-application
-2. Install Dependencies
+
+  cd ai-integration-web-application
+  
+### 2. Install Dependencies
 Backend (Node.js)
-bash
-Copy
-Edit
-cd backend
-npm install
+      cd backend
+      npm install
 Frontend (React.js)
-bash
-Copy
-Edit
-cd frontend
-npm install
-3. Environment Configuration
-Create a .env file in the backend and frontend directories and add the necessary environment variables:
+      cd frontend
+      npm install
+### 3. Environment Configuration
+      Create a .env file in the backend and frontend directories and add the necessary environment variables:
 
 Backend (.env):
 
@@ -58,18 +54,12 @@ REACT_APP_API_URL=<your-backend-api-url>
 
 4. Run the Application
 Start the Backend (Node.js):
-bash
-Copy
-Edit
-cd backend
-npm start
+    cd backend
+    npm start
 Start the Frontend (React.js):
-bash
-Copy
-Edit
-cd frontend
-npm start
-Visit http://localhost:3000 in your browser to access the application.
+    cd frontend
+    npm start
+    Visit http://localhost:3000 in your browser to access the application.
 
 ## Usage
 Sentiment Analysis: Enter text in the input field, and the application will analyze the sentiment of the text (positive or negative) using the Hugging Face model.
@@ -83,7 +73,7 @@ Live Demo---https://ai-integration-web-application.netlify.app/
 ## Contact
 For any inquiries or feedback, feel free to reach out to us at:
 
-Email: your.email@example.com
+Email: manna.sibsankar8@gmail.com
 
 GitHub: Your GitHub Profile
 
